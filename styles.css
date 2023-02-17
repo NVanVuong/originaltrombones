@@ -56,6 +56,7 @@ header {
   padding: 0 2rem;
   text-transform: uppercase;
   font-size: 1.6rem;
+  color: #000;
 }
 
 .logo {
@@ -70,7 +71,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-left: 2rem;
+  margin: 0rem auto;
 }
 
 .nav-bar {
@@ -342,5 +343,59 @@ footer span {
 
   .btn-select {
     width: 90%;
+  }
+}
+
+@media (max-width: 435px) {
+  .hero {
+    margin-top: 14rem;
+  }
+
+  .hero-caption {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+
+  .hero-form {
+    width: 100%;
+    flex-direction: column;
+    margin: 2rem 2rem 4rem 2rem;
+  }
+
+  .hero-email {
+    display: block;
+    height: 4rem;
+    width: 100%;
+    max-width: 35rem;
+    margin-right: 0;
+  }
+
+  .btn-start {
+    max-width: 35rem;
+    border-radius: 0.5rem;
+  }
+
+  .features {
+    margin: 0 3rem;
+    margin-top: 1rem;
+  }
+  .feature-content {
+    padding-right: 0;
+  }
+
+  .feature {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  .feature-desc {
+    text-align: justify;
+  }
+  iframe {
+    width: 85%;
+  }
+  .product {
+    width: 85%;
   }
 }
